@@ -81,16 +81,19 @@
   width: 300px;
 }
 
+/* .add-movies-btn{
+  width: 500px;
+} */
 
 
 
 
 /* add movies*/
-.add-movies {
+/* .add-movies {
     position: absolute;
     top: 1.6%;
     left: 1%;
-}
+} */
 #add-cancel{
   display: flex;
   justify-content: space-around;

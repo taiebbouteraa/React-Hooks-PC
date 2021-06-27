@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactStars from 'react-rating-stars-component'
 import { InputGroup, FormControl } from 'react-bootstrap';
+import AddMovie from './AddMovie';
 
 const Search = ({ searchText, searchStars, handleSearchStars, handleSearchText }) => {
     const ratingChanged = (newRating) => {
@@ -8,8 +9,8 @@ const Search = ({ searchText, searchStars, handleSearchStars, handleSearchText }
     };
     return (
         <div className='navigation'>
-            <h1 style={{ marginLeft: 100 }}>LOGO</h1>
-            {/* <input id='search-inp' type='text' value={searchText} onChange={handleSearchText} /> */}
+            <AddMovie />
+            <h1>LOGO</h1>
             <InputGroup id="search-bar">
                 <FormControl
                     placeholder="Search"
@@ -25,7 +26,6 @@ const Search = ({ searchText, searchStars, handleSearchStars, handleSearchText }
                 size={24}
                 value={1}
                 activeColor="#ffd700"
-            // edit={false}
             />
         </div>
     )

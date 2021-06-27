@@ -19,8 +19,7 @@ function App() {
 
   return (
     <>
-      <Search searchText={searchText} searchStars={searchStars} handleSearchStars={handleSearchStars} handleSearchText={handleSearchText} />
-      <AddMovie handleAdd={handleAdd} />
+      <Search searchText={searchText} searchStars={searchStars} handleSearchStars={handleSearchStars} handleSearchText={handleSearchText} handleAdd={handleAdd} />
       <MovieList movie={movies.filter((movie) => movie.title.toLowerCase().includes(searchText.toLowerCase().trim()) && searchStars <= movie.rating)} />
     </>
   );
