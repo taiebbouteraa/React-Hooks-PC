@@ -3,13 +3,13 @@ import ReactStars from 'react-rating-stars-component'
 import { InputGroup, FormControl } from 'react-bootstrap';
 import AddMovie from './AddMovie';
 
-const Search = ({ searchText, searchStars, handleSearchStars, handleSearchText }) => {
+const Search = ({ handleAdd, searchText, searchStars, handleSearchStars, handleSearchText }) => {
     const ratingChanged = (newRating) => {
         console.log(newRating);
     };
     return (
         <div className='navigation'>
-            <AddMovie />
+            <AddMovie handleAdd={handleAdd} />
             <h1>LOGO</h1>
             <InputGroup id="search-bar">
                 <FormControl

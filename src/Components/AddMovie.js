@@ -98,19 +98,19 @@ const AddMovie = ({ handleAdd }) => {
                     </InputGroup>
                     {/* <div>
                         <label>Movie name</label>
-                        <input type='text' value={mov.title} required cible??????????????????????????????????='title' onChange={handleChange} />
+                        <input type='text' value={mov.title} required name='title' onChange={handleChange} />
                     </div>
                     <div>
                         <label>Movie poster URL</label>
-                        <input type='url' value={mov.posterURL} required cible??????????????????????????????????='posterURL' onChange={handleChange} />
+                        <input type='url' value={mov.posterURL} required name='posterURL' onChange={handleChange} />
                     </div>
                     <div>
                         <label>Movie rating</label>
-                        <input type='number' value={mov.rating} required cible??????????????????????????????????='rating' onChange={handleChange} />
+                        <input type='number' value={mov.rating} required name='rating' onChange={handleChange} />
                     </div>
                     <div>
                         <label>Movie discription</label>
-                        <input type='text' value={mov.description} required cible??????????????????????????????????='description' onChange={handleChange} />
+                        <input type='text' value={mov.description} required name='description' onChange={handleChange} />
                     </div> */}
                     <div id='add-cancel'>
                         <Button variant="success" type='submit'>Add</Button>
