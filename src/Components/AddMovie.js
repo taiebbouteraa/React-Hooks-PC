@@ -35,7 +35,7 @@ const AddMovie = ({ handleAdd }) => {
 
     return (
         <div className='add-movies'>
-            <Button onClick={openModal} className='add-movies-btn'>Open Modal</Button>
+            <Button onClick={openModal} className='add-movies-btn'>Add movie</Button>
             <Modal
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
